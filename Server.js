@@ -2,7 +2,7 @@ const express=require("express")
 const app=express()
 const cors=require("cors")
 app.use(cors())
-const PORT=5050
+const PORT=5555
 app.use(express.json());
 const mongoose=require("mongoose")
 mongoose.connect("mongodb+srv://vasan:Sellakannu18@cluster0.7nglaqy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
